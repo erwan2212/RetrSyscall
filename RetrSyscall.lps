@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Count="1" Active="Release">
+      <Item1 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="RetrSyscall"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="..\jwa2.3\jwa\branches\2.3\Win32API"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <Style Value="1"/>
+          </Parsing>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <TargetCPU Value="x86_64"/>
+            <TargetOS Value="win64"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+          </Linking>
+        </CompilerOptions>
+      </Item1>
+    </BuildModes>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="RetrSyscall.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="19"/>
+        <CursorPos X="54" Y="38"/>
+        <UsageCount Value="272"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="debug.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="177"/>
+        <CursorPos X="13" Y="36"/>
+        <UsageCount Value="271"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ulogic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Ulogic"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="78" Y="113"/>
+        <UsageCount Value="170"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ubits.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="10" Y="19"/>
+        <UsageCount Value="24"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\FPC\3.0.0\source\rtl\win\wininc\base.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="635"/>
+        <CursorPos X="6" Y="647"/>
+        <UsageCount Value="3"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="18" HistoryIndex="17">
+      <Position1>
+        <Filename Value="RetrSyscall.lpr"/>
+        <Caret Line="240" Column="27" TopLine="224"/>
+      </Position1>
+      <Position2>
+        <Filename Value="RetrSyscall.lpr"/>
+        <Caret Line="30" Column="9" TopLine="13"/>
+      </Position2>
+      <Position3>
+        <Filename Value="RetrSyscall.lpr"/>
+        <Caret Line="24" Column="102" TopLine="12"/>
+      </Position3>
+      <Position4>
+        <Filename Value="RetrSyscall.lpr"/>
+        <Caret Line="25" Column="35" TopLine="13"/>
+      </Position4>
+      <Position5>
+        <Filename Value="debug.pas"/>
+        <Caret Line="88" TopLine="81"/>
+      </Position5>
+      <Position6>
+        <Filename Value="RetrSyscall.lpr"/>
+        <Caret Line="26" Column="3" TopLine="14"/>
+      </Position6>
+      <Position7>
+        <Filename Value="debug.pas"/>
+        <Caret Line="79" Column="44" TopLine="67"/>
+      </Position7>
+      <Position8>
+        <Filename Value="debug.pas"/>
+        <Caret Line="79" Column="44" TopLine="67"/>
+      </Position8>
+      <Position9>
+        <Filename Value="RetrSyscall.lpr"/>
+        <Caret Line="10" Column="27" TopLine="6"/>
+      </Position9>
+      <Position10>
+        <Filename Value="RetrSyscall.lpr"/>
+        <Caret Line="3" Column="32"/>
+      </Position10>
+      <Position11>
+        <Filename Value="debug.pas"/>
+        <Caret Line="22" TopLine="4"/>
+      </Position11>
+      <Position12>
+        <Filename Value="debug.pas"/>
+        <Caret Line="15" TopLine="10"/>
+      </Position12>
+      <Position13>
+        <Filename Value="debug.pas"/>
+        <Caret Line="8" Column="31"/>
+      </Position13>
+      <Position14>
+        <Filename Value="debug.pas"/>
+        <Caret Line="23" Column="75"/>
+      </Position14>
+      <Position15>
+        <Filename Value="RetrSyscall.lpr"/>
+        <Caret Line="3" Column="32"/>
+      </Position15>
+      <Position16>
+        <Filename Value="RetrSyscall.lpr"/>
+        <Caret Line="14" Column="20" TopLine="19"/>
+      </Position16>
+      <Position17>
+        <Filename Value="debug.pas"/>
+        <Caret Line="36" Column="5" TopLine="19"/>
+      </Position17>
+      <Position18>
+        <Filename Value="debug.pas"/>
+        <Caret Line="29" Column="9" TopLine="18"/>
+      </Position18>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
