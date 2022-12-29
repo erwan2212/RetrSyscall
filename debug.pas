@@ -33,7 +33,7 @@ function NtSetContextThread(pThread:handle; Context:PCONTEXT):NTSTATUS; stdcall;
 
 procedure log(msg:string);
 begin
-     writeln(msg);
+     {$i-}writeln(msg);{$i+}
 end;
 
 function AllocMemAlign(const ASize, AAlign: Cardinal; out AHolder: Pointer): Pointer;
@@ -70,7 +70,6 @@ function RetrieveSyscall(  FunctionAddress:PVOID ):nativeuint;
 type
   fn=function():dword;stdcall;
 var
-ssn:dword;
 ReturnNtStatus:dword;
 begin
         log('**** RetrieveSyscall ****');
@@ -79,9 +78,8 @@ begin
 	SetOneshotHardwareBreakpoint( FindSyscallAddress( FunctionAddress ) );
         //calling our function
         ReturnNtStatus:=fn(FunctionAddress)();
-	ssn := ReturnNtStatus;
-
-	result:= ssn;
+        log( 'ReturnNtStatus: '+inttohex(ReturnNtStatus,8) );
+	result:= ReturnNtStatus;
 end;
 
 
